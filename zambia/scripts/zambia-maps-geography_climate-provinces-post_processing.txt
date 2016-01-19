@@ -1,0 +1,6 @@
+# Make background transparent
+convert zambia-maps-geography_climate-provinces.png -transparent white zambia-maps-geography_climate-provinces-transparent.png
+
+# Trim margins
+# Alternatively use gwenview
+convert zambia-maps-geography_climate-provinces-transparent.png -crop -15-10 zambia-maps-geography_climate-provinces-trim.png
